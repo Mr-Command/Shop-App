@@ -1,0 +1,40 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    border-bottom:2px solid black ;
+}
+.nav{
+    
+    height: 120px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 15px 0;
+}
+.siteTitle{
+    font-size: 3rem;
+}
+.parameters{
+    font-size: 1.5rem;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+}
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.nav li:hover {
+    text-decoration: underline;
+}
+.nav li.active{
+    background-color: white;
+}
