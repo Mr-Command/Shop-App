@@ -124,7 +124,7 @@ function Product() {
                     <AiFillStar className='rating-star'/>
                     <CiStar className='rating-star'/>
                     </section>
-                    <section className='card-price'>€300</section>
+                    <section className='card-price'>€300,00</section>
                 </div>
             </section>
             <section className='card'>

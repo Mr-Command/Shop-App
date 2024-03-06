@@ -1,0 +1,76 @@
+.bestSeller-part{
+    background-color: rgb(204, 197, 197);
+    margin-top: 30px;
+    height: 650px;
+}
+.bestSeller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+}
+.excepteur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight:700;
+    color: rgb(116, 116, 116);
+    margin-top: -30px;
+}
+.bestSeller-card-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    z-index: 2;
+    justify-content: last baseline;
+    align-items: center;
+}
+.arrow-left,.arrow-rigth{
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    height: 40px;
+    width: 40px;
+}
+.bestSeller-card{
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 22px;
+    padding: 10px;
+    cursor: pointer;
+}
+.bestSeller-card-img{
+    border-radius: 10px;
+    width: 20rem;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-price{
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best-price {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    background-color: yellow; 
+    color: gray; 
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
