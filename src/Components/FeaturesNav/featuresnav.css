@@ -65,16 +65,21 @@
 }*/
 .arrows{
     margin-right: 15%;
-    background-color: gray;
     border-radius: 25px;
     justify-content: center;
+    background-color: gray;
     align-items: center;
     position: flex;
+    
 }
-.arrow-left,.arrow-rigth{
+.arrow-left1,.arrow-rigth1{
     height: 30px;
     width: 30px;
-    color: white;
     background-color: gray;
-    border-radius: 25px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+
 }

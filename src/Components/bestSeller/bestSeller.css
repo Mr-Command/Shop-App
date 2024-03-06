@@ -35,8 +35,9 @@
     justify-content: center;
     align-items: center;
     margin-right: 40px;
-    height: 40px;
-    width: 40px;
+    color: gray;
+    height: 50px;
+    width: 50px;
 }
 .bestSeller-card{
     position: relative;

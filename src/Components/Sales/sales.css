@@ -26,8 +26,8 @@
 }
 .sales-card-row {
     display: flex;
-    flex-direction: column; /* Diğer içerikleri alt alta sıralar */
-    justify-content: flex-start; /* Diğer içeriği yukarı hizalar */
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .cost{
     margin-top: -30px;
@@ -39,8 +39,8 @@
 }
 .sales-card-review {
     display: flex;
-    align-items: center; /* Değerlendirme yıldızlarını dikey hizalar */
-    margin-bottom: 10px; /* Değerlendirme ve eski fiyat arasında boşluk bırakır */
+    align-items: center;
+    margin-bottom: 10px; 
 }
 .new-cost{
     margin-left: 30px;
