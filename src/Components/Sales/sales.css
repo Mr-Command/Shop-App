@@ -1,0 +1,54 @@
+.title{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 15%;
+    justify-content: space-between;
+}
+.title h1 {
+    display: inline;
+    margin-bottom: -5px ;
+}
+.sales-card{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+.sales-card-title{
+    font-size: 25px;
+    color: gray;
+}
+.sales-card-img{
+    height: 80px;
+    width: 70px;
+    margin-right: 20px;
+}
+.sales-card-row {
+    display: flex;
+    flex-direction: column; /* Diğer içerikleri alt alta sıralar */
+    justify-content: flex-start; /* Diğer içeriği yukarı hizalar */
+}
+.cost{
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+}
+.sales-card h1{
+    margin: 5px 0;
+}
+.sales-card-review {
+    display: flex;
+    align-items: center; /* Değerlendirme yıldızlarını dikey hizalar */
+    margin-bottom: 10px; /* Değerlendirme ve eski fiyat arasında boşluk bırakır */
+}
+.new-cost{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 23px;
+    font-weight: bold;
+}
+.old-cost{
+    color: gray;
+    text-decoration: line-through;
+}
