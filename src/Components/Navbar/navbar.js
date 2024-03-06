@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbar.css';
+import marka from "../../image/marka.png"
 
 function Navbar() {
     return ( //Burada ANasayfanın NAvbarını oluşturuyoruz
@@ -8,7 +9,9 @@ function Navbar() {
     // en sonra parametreler için li oluşturup içine parametreleri yazıyoruz.
         <nav className='nav'>  
             <div className="marka">
-            <a href="/" className='siteTitle'>Schön</a>      
+                <a href="/">
+                    <img src={marka} alt="Schön" className="logo" />
+                </a>
             </div>
             <div className="parameters">
             <ul>

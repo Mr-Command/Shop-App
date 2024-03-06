@@ -1,4 +1,4 @@
-import Features from './Components/Features/features';
+import FeaturesNav from './Components/FeaturesNav/featuresnav';
 import Images from './Components/Images/images';
 import Navbar from './Components/Navbar/navbar';
 
@@ -7,7 +7,7 @@ function App() {
     <div>
       <Navbar />
       <Images/>
-      <Features/>
+      <FeaturesNav/>
     </div>
   );
 }
