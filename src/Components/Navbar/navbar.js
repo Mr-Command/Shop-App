@@ -1,6 +1,11 @@
 import React from 'react';
 import './navbar.css';
-import marka from "../../image/marka.png"
+import marka from "../../image/marka.png";
+import { CiSearch } from "react-icons/ci";
+import { CiHeart } from "react-icons/ci";
+import { CiShoppingCart } from "react-icons/ci";
+import { CgProfile } from "react-icons/cg";
+
 
 function Navbar() {
     return ( //Burada ANasayfanın NAvbarını oluşturuyoruz
@@ -22,6 +27,12 @@ function Navbar() {
                 <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
+            </div>
+            <div className='profile-container'>
+                <a href="/"><CiSearch className='nav-icons'/></a>
+                <a href="/"><CiHeart className='nav-icons'/></a>
+                <a href="/"><CiShoppingCart className='nav-icons'/></a>
+                <a href="/"><CgProfile className='nav-icons'/></a>
             </div>
         </nav>
     );

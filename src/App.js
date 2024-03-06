@@ -1,6 +1,7 @@
 import FeaturesNav from './Components/FeaturesNav/featuresnav';
 import Images from './Components/Images/images';
 import Navbar from './Components/Navbar/navbar';
+import Product from "./Components/Product/product"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Images/>
       <FeaturesNav/>
+      <Product/>
     </div>
   );
 }
