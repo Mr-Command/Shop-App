@@ -1,8 +1,8 @@
 import React from 'react';
-import "./featured.css";
+import "./bestSeller.css";
 
 
-function Featured() {
+function BestSeller() {
     return ( 
     <div>
         
@@ -10,4 +10,4 @@ function Featured() {
     );
 }
 
-export default Featured;
+export default BestSeller;

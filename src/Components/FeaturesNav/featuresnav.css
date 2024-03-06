@@ -27,7 +27,7 @@
     gap: 1rem;
     align-items: center; 
 }
-.feature-nav::before,
+/*.feature-nav::before,
 .feature-nav::after {
     content: ''; 
     position: absolute;
@@ -62,4 +62,19 @@
     border-left: 3px solid gray; 
     border-bottom: 5px solid gray; 
     border-right:10px solid gray ;
+}*/
+.arrows{
+    margin-right: 15%;
+    background-color: gray;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    position: flex;
+}
+.arrow-left,.arrow-rigth{
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: gray;
+    border-radius: 25px;
 }

@@ -1,5 +1,8 @@
 import React from 'react';
 import "./featuresnav.css";
+import { FaArrowCircleLeft } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
+
 
 
 function FeaturesNav() {
@@ -12,6 +15,10 @@ function FeaturesNav() {
             <span> | </span>
             <li><a href="/best-seller">BEST SELLER</a></li>
         </ul>
+        <div className='arrows'>
+        <FaArrowCircleLeft className='arrow-left'/>
+        <FaArrowCircleRight className='arrow-rigth'/>
+        </div>
     </div>
     );
 }

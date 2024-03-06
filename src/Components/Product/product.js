@@ -20,10 +20,10 @@ function Product() {
     return ( 
         <section className='card-container'>
             <section className='card'>
+                <div className="new">NEW!</div>
                 <img src={puffchair} alt="Furniture" className='card-img'/>
                 <div className="card-details">
                     <h3 className='card-title'>Puff Chair</h3>
-                    <p className='new'>NEW!</p>
                     <section className='card-review'>
                     <AiFillStar className='rating-star'/>
                     <AiFillStar className='rating-star'/>
@@ -60,6 +60,8 @@ function Product() {
                 </div>
             </section>
             <section className='card'>
+            <div className="new">NEW!</div>
+            <div className="discount">15% OFF!</div>
                 <img src={bambichair2} alt="Furniture" className='card-img'/>
                 <div className="card-details">
                     <h3 className='card-title'>Bambi Chair</h3>
@@ -99,6 +101,7 @@ function Product() {
                 </div>
             </section>
             <section className='card'>
+            <div className="discount">15% OFF!</div>
                 <img src={upholsteredchair} alt="Furniture" className='card-img'/>
                 <div className="card-details">
                     <h3 className='card-title'>Upholstered Chair</h3>

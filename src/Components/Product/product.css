@@ -6,9 +6,11 @@
     z-index: 2;
 }
 .card{
+    position: relative;
     margin-bottom: 10px;
     margin-right: 20px;
-    border: 2px solid lightgray;
+    border: 2px solid rgb(226, 225, 225);
+    border-radius: 10px;
     padding: 10px;
     cursor: pointer;
 }
@@ -45,8 +47,18 @@
 .new {
     position: absolute; 
     top: 10px; 
-    left: 10px; 
+    left: 0px; 
     background-color: black; 
     color: white; 
     padding: 5px 10px; 
+    border-radius: 5px;
+}
+.discount{
+    position: absolute; 
+    top: 40px; 
+    left: 0px; 
+    background-color: green; 
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 5px;
 }
