@@ -7,6 +7,7 @@ import Sales from "./Components/Sales/sales";
 import FeaturedProduct from './Components/featuredProduct/featuredProduct';
 import SaleProduct from './Components/saleProduct/saleProduct';
 import TopRatedProduct from './Components/topRatedProduct/topRatedProduct';
+import Schön from './Components/bottomPart/Schön/schön';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Product/>
       <BestSeller/>
       <div style={{ display: 'flex', marginLeft:"10%",marginRight:"15%", justifyContent:"space-between"}}><Sales/><FeaturedProduct/><SaleProduct/><TopRatedProduct/></div>
+      <Schön/>
     </div>
   );
 }
