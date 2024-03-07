@@ -1,7 +1,6 @@
 .bottomPart-body{
     margin-left: 4%;
     margin-right: 4%;
-    border-radius: 5px;
     padding-top: 30px;
 }
 .schön-title{
@@ -11,6 +10,7 @@
     margin-left: 8%;
     font-size: 50px;
     margin-bottom: 5px;
+    
 }
 .schön-paragraph {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

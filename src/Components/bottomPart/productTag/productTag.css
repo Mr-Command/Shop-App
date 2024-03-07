@@ -1,0 +1,21 @@
+.producttag-body{
+    margin-top: 40px;
+}
+.producttag-title{
+    color: rgb(102, 102, 102);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 40%;
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+  }

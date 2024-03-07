@@ -1,0 +1,45 @@
+.information-body{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.adress {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.info-adress {
+    
+    margin-right: -200px;
+    margin-top: -30px; 
+}
+.country{
+    margin-left: 30px; 
+    margin-top: -20px;
+}
+.location-info {
+    text-align: center; 
+}
+
+.location-icon {
+    margin-left: 250px;
+    margin-top:-30px; 
+}
+.phone{
+    display: flex;
+    align-items: center; 
+    margin-left: 82px;
+}
+.phone-icon{
+    margin-left: 50px;
+}
+.mail-information{
+    display: flex;
+    align-items: center; 
+    margin-left: 95px; 
+}
+.mail-icon{
+    margin-left: 50px;
+    height: 30px;
+    width: 30px;
+}
