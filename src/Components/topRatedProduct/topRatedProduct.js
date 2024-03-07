@@ -1,23 +1,23 @@
 import React from 'react';
-import "./sales.css"
+import "../Sales/sales.css"
 import { AiFillStar } from "react-icons/ai";
 import { IoIosStarHalf } from "react-icons/io";
 //import { CiStar } from "react-icons/ci";
-import bambichair5 from "../../image/bambi_chair_5.webp";
+import bambichair3 from "../../image/bambi_chair_3.jpg";
 import oyocantilleverchair from "../../image/Oyo Cantillever Chair.jpg";
 import curvechair from "../../image/curvechair.jpg";
 
 
 
 
-function Sales() {
+function TopRatedProduct() {
     return ( 
         <div>
             <div className='title'>
-                <h1>Hot Sale</h1>
+                <h1>Top Rated Product</h1>
             </div>
             <div className='sales-card'>
-                <img src={bambichair5} alt="" className='sales-card-img'/>
+                <img src={bambichair3} alt="" className='sales-card-img'/>
                 <div className='sales-card-row'>
                     <h1 className='sales-card-title'>Bambi Chair</h1>
                     <section className='sales-card-review'>
@@ -28,7 +28,7 @@ function Sales() {
                     </section>
                     <div className='cost'>
                     <h3 className='old-cost'>$75,00</h3>
-                    <h3 className='new-cost'>$55,00</h3>
+                    <h3 className='new-cost'>$33,00</h3>
                     </div>
                 </div>
             </div>
@@ -67,4 +67,4 @@ function Sales() {
     );
 }
 
-export default Sales;
+export default TopRatedProduct;

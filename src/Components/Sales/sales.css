@@ -1,3 +1,4 @@
+
 .title{
     display: flex;
     margin-left: 10%;
@@ -7,16 +8,19 @@
 .title h1 {
     display: inline;
     margin-bottom: -5px ;
+    font-size: 20px;
 }
 .sales-card{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
     margin-left: 10%;
+    margin-bottom: 10px;
+    height: 110px;
     display: flex;
     align-items: center;
 }
 .sales-card-title{
-    font-size: 25px;
+    font-size: 15px;
     color: gray;
 }
 .sales-card-img{
