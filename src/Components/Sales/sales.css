@@ -1,60 +1,106 @@
-body{
+body {
     margin-bottom: 50px;
 }
-.title{
+
+.title {
     display: flex;
-    margin-left: 10%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     justify-content: space-between;
 }
+
 .title h1 {
     display: inline;
-    margin-bottom: -5px ;
+    margin-bottom: -5px;
     font-size: 20px;
 }
-.sales-card{
+
+.sales-card {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 10px;
-    height: 110px;
+    height: auto;
     display: flex;
     align-items: center;
 }
-.sales-card-title{
+
+.sales-card-title {
     font-size: 15px;
     color: gray;
 }
-.sales-card-img{
-    height: 80px;
+
+.sales-card-img {
+    height: auto;
     width: 70px;
     margin-right: 20px;
 }
+
 .sales-card-row {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-.cost{
+
+.cost {
     margin-top: -30px;
     display: flex;
     align-items: center;
 }
-.sales-card h1{
+
+.sales-card h1 {
     margin: 5px 0;
 }
+
 .sales-card-review {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
-.new-cost{
+
+.new-cost {
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 23px;
     font-weight: bold;
 }
-.old-cost{
+
+.old-cost {
     color: gray;
     text-decoration: line-through;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .sales-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sales-card-img {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .sales-card-row {
+        justify-content: center;
+    }
+    
+    .cost {
+        margin-top: 0;
+        justify-content: center;
+    }
+    
+    .new-cost {
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 18px;
+    }
 }

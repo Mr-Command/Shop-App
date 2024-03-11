@@ -1,38 +1,41 @@
-
-.bestSeller-part{
+.bestSeller-part {
     background-color: rgb(204, 197, 197);
     margin-top: 30px;
-    height: 650px;
+    min-height: 650px;
 }
-.bestSeller{
+
+.bestSeller {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 15px;
     color: rgb(66, 66, 66);
 }
-.excepteur{
+
+.excepteur {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10px;
-    font-weight:700;
+    font-weight: 700;
     color: rgb(116, 116, 116);
     margin-top: -30px;
 }
-.bestSeller-card-container{
-    
+
+.bestSeller-card-container {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
     z-index: 2;
-    justify-content: last baseline;
+    justify-content: center;
     align-items: center;
 }
-.arrow-left,.arrow-rigth{
+
+.arrow-left, .arrow-rigth {
     justify-content: center;
     align-items: center;
     margin-right: 40px;
@@ -40,33 +43,43 @@
     height: 50px;
     width: 50px;
 }
-.bestSeller-card{
+
+.bestSeller-card {
     position: relative;
     margin-bottom: 10px;
-    margin-right: 22px;
+    margin-right: 2%; 
+    margin-left: 2%;
     padding: 10px;
     cursor: pointer;
+    width: calc(19% - 1%); 
+    box-sizing: border-box;
 }
-.bestSeller-card-img{
+
+.bestSeller-card-img {
     border-radius: 10px;
-    width: 20rem;
-    height: 400px;
+    width: 100%;
+    height: auto; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card-title{
+
+.card-title {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
-.card-price{
+
+.card-price {
     font-weight: 400;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px; 
 }
+
 .best-price {
     position: absolute; 
     top: 10px; 
@@ -75,4 +88,11 @@
     color: gray; 
     padding: 5px 10px; 
     border-radius: 5px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .bestSeller-card {
+        width: calc(50% - 4%);
+    }
 }

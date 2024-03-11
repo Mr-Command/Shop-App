@@ -8,15 +8,30 @@ function Images() {
             <div>
                 <img className="big-Image" src={foto1} alt="" />
             </div>
-            <div className="small-images">
-                <img className="small-Image-1" src={foto1} alt="" />
-                <div>
-                    <img className="small-Image-2" src={foto1} alt="" />
-                    <img className="small-Image-3" src={foto1} alt="" />
+            <div className='small-Images'>
+            <img
+                src={foto1}
+                alt="Küçük Resim"
+                className="small-Image-Left"
+            />
+             <div className="small-images-column">
+                    <img
+                        src={foto1}
+                        alt="Küçük Resim 2"
+                        className="small-Image"
+                    />
+                    <img
+                        src={foto1}
+                        alt="Küçük Resim 3"
+                        className="small-Image"
+                    />
                 </div>
-                <img className="small-Image-4" src={foto1} alt="" />
-            </div>
-
+                <img
+                src={foto1}
+                alt="Küçük Resim"
+                className="small-Image-Rigth"
+            />
+        </div>
         </div>
     );
 }
