@@ -16,9 +16,13 @@
     height: 500px;
 }
 .small-Image-Rigth{
-    margin-right: 10%;
+    margin-right: 5%;
     width: 20%;
     height: 500px;
+}
+.small-Image-Left,
+.small-Image-Right {
+    box-sizing: border-box;
 }
 
 .small-images-column {

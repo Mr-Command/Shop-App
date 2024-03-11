@@ -4,7 +4,7 @@ import foto1 from "../../image/Ligthning_pendant_lamps.png"
 import foto2 from "../../image/my_small_writing.png"
 import foto3 from "../../image/modular_longue.png"
 import foto4 from "../../image/modular_technical.png"
-import foto5 from "../../image/direct_ligth.png"
+import foto5 from "../../image/image-1.png"
 
 function Images() {
     return ( 

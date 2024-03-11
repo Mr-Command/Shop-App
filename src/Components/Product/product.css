@@ -1,65 +1,93 @@
-
-.card-container{
+.card-container {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1rem;
     z-index: 2;
 }
-.card{
+
+.card {
     position: relative;
-    margin-bottom: 10px;
-    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-right: 2%;
     border: 2px solid rgb(226, 225, 225);
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
+    width: 18%; 
 }
-.card-img{
+
+.card-img {
     border-radius: 10px;
-    width: 15rem;
-    height: 300px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card-title{
+
+.card-title {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
-.card-review{
+
+.card-review {
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.rating-star{
+
+.rating-star {
     color: rgba(205, 182, 50, 0.925);
     display: inline-block;
 }
-.card-price{
+
+.card-price {
     font-weight: bolder;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
-.new {
+
+.new, .discount {
     position: absolute; 
     top: 10px; 
-    left: 0px; 
-    background-color: black; 
-    color: white; 
+    left: 10px; 
     padding: 5px 10px; 
     border-radius: 5px;
 }
-.discount{
-    position: absolute; 
-    top: 40px; 
-    left: 0px; 
+
+.new {
+    background-color: black; 
+    color: white; 
+}
+
+.discount {
     background-color: green; 
     color: white; 
-    padding: 5px 10px; 
-    border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        width: 30%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 45%; 
+        margin-right: 0;
+    }
 }
